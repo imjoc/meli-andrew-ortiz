@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Breadcumb component correctly 1`] = `
+<div
+  className="container-breadcrumb"
+>
+  <ul
+    className="breadcrumb"
+  >
+    <li
+      onClick={[Function]}
+    >
+      Tecnelogias
+    </li>
+    <li
+      onClick={[Function]}
+    >
+      Macbook
+    </li>
+  </ul>
+</div>
+`;

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders searchbox correctly 1`] = `
+<form
+  className="box-search"
+  onSubmit={[Function]}
+>
+  <input
+    defaultValue="Search"
+    id="search-box"
+    maxLength={100}
+    name="search"
+    placeholder="Nunca dejes de buscar"
+    type="text"
+  />
+  <button
+    type="submit"
+  >
+    <i
+      className="icon-search"
+    >
+      <span>
+        Buscar
+      </span>
+    </i>
+  </button>
+</form>
+`;

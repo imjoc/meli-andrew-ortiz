@@ -1,0 +1,33 @@
+.container-breadcrumb {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 14px;
+
+  ul.breadcrumb {
+    list-style: none;
+    width: 100%;
+  }
+
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  ul.breadcrumb li + li:before {
+    padding: 4px;
+    color: black;
+    content: "\03e";
+  }
+
+  ul.breadcrumb li a {
+    color: #333333;
+    text-decoration: none;
+  }
+
+  ul.breadcrumb li a:hover {
+    color: #999999;
+    text-decoration: underline;
+  }
+}

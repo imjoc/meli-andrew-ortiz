@@ -1,0 +1,83 @@
+@import "../../assets/styles/variables";
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+
+  .search-result {
+    margin-top: $margin2;
+    display: flex;
+    flex-direction: column;
+    width: $fullWidth;
+    min-height: 100vm;
+    background: #ffffff;
+    border-radius: 3px;
+
+    .result-item {
+      display: flex;
+      flex-direction: row;
+      width: $fullWidth;
+      padding: $margin2 0 $margin2 0;
+      height: $heightItemSearch;
+      border-bottom: 1px solid #EEEEEE;
+      cursor: pointer;
+
+      img {
+        width: $heightItemSearch;
+        height: $heightItemSearch;
+        border-radius: 4px;
+        padding-left: $margin2;
+      }
+
+      .item-description {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        height: $heightItemSearch;
+        padding-left: $margin2;
+
+        p {
+          width: $fullWidth;
+          font-size: $fontSizeMedium;
+          font-weight: bold;
+          padding-top: $margin2;
+
+          .icon-shipping:before {
+            content: url("../../assets/images/ic_shipping.png");
+            color: #666;
+            margin-left: 5px;
+            line-height: 0.5em;
+          }
+
+          span {
+            display: none;
+          }
+        }
+
+        /* title transform normal text*/
+        h5 {
+          margin-top: $margin1;
+          width: $fullWidth;
+          font-size: $fontSizeSmall-2;
+
+          a {
+            text-decoration: none;
+            color: #000000;
+            font-weight: normal;
+          }
+        }
+      }
+
+      .item-address {
+        width: 20%;
+        height: $heightItemSearch;
+
+        p {
+          width: $fullWidth;
+          font-size: $fontSizeExtraSmall12;
+        }
+      }
+    }
+  }
+}
